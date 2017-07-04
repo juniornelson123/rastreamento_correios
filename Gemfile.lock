@@ -9,7 +9,7 @@ PATH
       recursive-open-struct
       savon (~> 2.11.1)
       simplecov (~> 0.14.1)
-      webmock (~> 3.0.1)
+      webmock (~> 1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -105,7 +105,7 @@ GEM
     wasabi (3.5.0)
       httpi (~> 2.0)
       nokogiri (>= 1.4.2)
-    webmock (3.0.1)
+    webmock (1.24.6)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff
