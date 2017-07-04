@@ -5,11 +5,11 @@ module CorreiosRastreamento
     end
 
 
-    def busca_encomenda(codigo, tipo="T")
+    def busca_encomenda(usuario, senha, codigo, tipo="T")
       request = Methods::BuscaEncomenda.new
-      request.call(codigo, tipo)
+      request.call(usuario, senha, codigo, tipo)
     end
-   
+
 
   end
 end
